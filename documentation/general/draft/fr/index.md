@@ -34,6 +34,8 @@ Elle se destine aussi bien aux professionnels qu'aux particuliers qui souhaitent
 
 # Les marchandises
 
+*Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises.
+
 L'un des objectifs de *Piamashop* est d'offrir aux vendeurs une suite d'interfaces qui leur permettent de décrire au mieux les produits qu'ils souhaitent vendre.
 
 À chaque type de marchandise correspondra un ensemble de caractéristiques que le vendeur devra fournir afin d'aider le client a faire son choix entre plusieurs marchandises du même type.
@@ -42,8 +44,6 @@ L'ensemble des caractéristiques pour chaque nouveau type de produit devra être
 
 ## Brouillon : Autres formulations
 
-*Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandses.
-
 *Piamashop* a pour ambition de permettre aux vendeurs de proposer à la vente toutes sortes de marchandses.
 
 Pour faciliter la recherche des clients chaque marchandise devra être classée par type.
@@ -51,8 +51,6 @@ Pour faciliter la recherche des clients chaque marchandise devra être classée 
 Les vendeurs pourront proposer toute sorte de marchandise à condition que celle-ci fasse partie d'une classe de produits déjà enregistrée.
 
 *Piamashop* accepte tout types de marchandise tant que celle-ci fait partie d'une [classe de produits](https://fr.wikipedia.org/wiki/Produit_(%C3%A9conomie)#Appartenance_%C3%A0_une_classe_de_produits) déjà enregistrée. Les vendeurs pourront faire une demande à *Piamashop* si il souhaite voir ajouter une nouvelle classe de produit au catalogue de *Piamashop*.
-
-## Les 
 
 # Les acteurs
 

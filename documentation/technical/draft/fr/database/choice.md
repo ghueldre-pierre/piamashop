@@ -5,7 +5,7 @@
 ## Constat (*Rational ?*)
 
 - Plus de lecture que d'écriture
-- Une grande variété de produits différents ayant chacun des caractéristiques propres mais aussi des caractéristiques parfois communes (exemple : tondeuse à gazon électrique et machine à laver électrique)
+- Une grande variété de produits différents ayant chacune des caractéristiques propres mais aussi des caractéristiques parfois communes (exemple : tondeuse à gazon électrique et machine à laver électrique)
 
 *faire un lien vers le design des données produits*
 
