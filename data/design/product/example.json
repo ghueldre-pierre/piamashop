@@ -1,0 +1,57 @@
+{
+    "type": "kettle",
+    "availability": {
+        "in_stock": true,
+        "remaining_alert": 0,
+        "restocking_date": ""
+    },
+    "price": {
+        "value": 19.90,
+        "currency_symbol": "€"
+    },
+    "caracteristics": {
+        "container": {
+            "capacity": 1.8,
+            "unit": "L"
+        },
+        "electric": {
+            "power": {
+                "value": 1500,
+                "unit": "W"
+            },
+            "voltage": {
+                "value": 240,
+                "unit": "V"
+            }
+        },
+        "look": {
+            "color": "copper",
+            "finish_type": "polished"
+        },
+        "object": {
+            "dimensions": {
+                "height": {
+                    "value": 22,
+                    "unit": "cm"
+                },
+                "lenght": {
+                    "value": 25, 
+                    "unit": "cm"
+                },
+                "width": {
+                    "value": 19,
+                    "unit": "cm"
+                }
+            },
+            "weight": {
+                "value": 830,
+                "unit": "g"
+            }
+        },
+        "product": {
+            "brand": "Hagen",
+            "manufacturer": "Hagen",
+            "model_number": "HA5525-COP"
+        }
+    }
+}
