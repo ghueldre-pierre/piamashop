@@ -1,14 +1,14 @@
 # Données produits
 
-## Contexte
+## Rappel du contexte
 
-Avant toute chose, comme il l'a été mentionné dans [la documentation générale](), *Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises. C'est-à-dire que les vendeurs pourront vendre tout aussi bien des livres que des canapés ou encore des ordinateurs.
+Comme il l'a été mentionné dans [la documentation générale](), *Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises. C'est-à-dire que les vendeurs pourront vendre tout aussi bien des livres que des canapés ou encore des ordinateurs.
 
-Il a ausse été dit dans [la documentation générale]() qu'à chaque type de marchandise correspondra un ensemble de caractéristiques propres que le vendeur devra fournir afin d'aider le client a faire son choix entre plusieurs marchandises du même type. Pour simplifier, cela veut dire qu'un livre aura un nombre de pages, un canapé, un nombre de places, un ordinateur, un certain type de processeur, etc.
+Il a ausse été dit dans [la documentation générale]() qu'à chaque type de marchandise correspondra un ensemble de caractéristiques propres que le vendeur devra fournir afin d'aider le client a faire son choix entre plusieurs marchandises du même type. Autrement dit, cela veut dire qu'un livre aura un nombre de pages, un canapé, un nombre de places, un ordinateur, un certain type de processeur, etc.
 
 ## Caractéristiques communes à tous les produits
 
-Bien que chaque type de marchandise ait des caractéristiques propres ils ont aussi des caractéristiques communes.
+Bien que chaque type de marchandise ait des caractéristiques propres ils ont aussi des caractéristiques communes qu'il faut identifier.
 
 ### Un titre
 
@@ -57,11 +57,25 @@ Voir : https://www.gs1.org/services/verified-by-gs1 - https://www.ean-search.org
 
 ***
 
+Voir : [What are product IDs or GTINs? - Amazon](https://sell.amazon.com/blog/amazon-gtin-guide)
+
+#### Détail implémentation - à déplacer ?
+
+Le GTIN me semble être la clé primaire idéale.
+
+[PostgreSQL indexe automatiquement les clés primaires](https://www.postgresql.org/docs/current/ddl-constraints.html#DDL-CONSTRAINTS-PRIMARY-KEYS) :
+
+> Adding a primary key will automatically create a unique B-tree index on the column or group of columns listed in the primary key, and will force the column(s) to be marked NOT NULL.
+
+> PostgreSQL database developers think bigint is the way to go. The problem is that it is much easier and faster to access bigint values compared to variable or fixed length string. They occupy only 8bytes an entry while 14character string will take 14bytes and database can index bigint much more efficiently
+> 
+> source : [Storing GTIN/EAN values with PostgreSQL. Which data type to use?](https://dba.stackexchange.com/questions/237869/storing-gtin-ean-values-with-postgresql-which-data-type-to-use)
+
 #### Brouillon : Autres formulations
 
 Chaque type de GTIN est défini en fonction du nombre de chiffres qui le compose.
 
-/////////////////
+///////////////// DETAILS IMPLEMENTATION
 ## Quelle sera la clé primaire des produits ?
 
 Dans une base de données relationnelle, une clé primaire est la donnée qui permet d'identifier de manière unique un enregistrement dans une table.

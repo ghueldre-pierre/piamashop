@@ -16,7 +16,7 @@ Piamaship ? ship = livraison > il faut donc ajouter un service de livraison dans
 
 # Présentation de la plateforme
 
-*Piamashop* est une plateforme de vente en ligne. Elle s'addresse aussi bien aux professionnels qu'aux particuliers qui souhaitent proposer les marchandises qu'ils produisent ou distribuent.
+*Piamashop* est une plateforme de vente en ligne. Elle s'addresse aussi bien aux professionnels qu'aux particuliers qui souhaitent mettre en vente les marchandises qu'ils produisent ou distribuent.
 
 ## Brouillon : Autres formulations
 
@@ -34,23 +34,43 @@ Elle se destine aussi bien aux professionnels qu'aux particuliers qui souhaitent
 
 # Les marchandises
 
-*Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises.
+*Piamashop* a pour vocation de permettre à ses clients d'y trouver toutes sortes de marchandises.
 
-L'un des objectifs de *Piamashop* est d'offrir aux vendeurs une suite d'interfaces qui leur permettent de décrire au mieux les produits qu'ils souhaitent vendre.
+Le commerce en ligne différe du commerce de proximité dans le sens où les clients n'ont pas un accés physique au produit. De ce fait et afin d'assurer la satisfaction du client, *Piamashop* se doit de leur fournir le plus d'informations possibles à propos du produit qu'il souhaite acheter.
 
-À chaque type de marchandise correspondra un ensemble de caractéristiques que le vendeur devra fournir afin d'aider le client a faire son choix entre plusieurs marchandises du même type.
+Afin que les clients soient satisfait de leur achat, il faut leur donner le maximum d'informations à propos du produit qu'il souhaite acheter.
 
-L'ensemble des caractéristiques pour chaque nouveau type de produit devra être décrit par les vendeurs professionnels sous la forme d'un document qui une fois réalisé devra être transmis à nos équipes afin qu'elles le valident et l'ajoutent au catalogue des types de marchandises.
+Afin d'aider les clients dans leur choix, les vendeurs, lors de l'enregistrement de leur produit, devront fournir un ensemble d'informations à propos de celui-ci. L'ensemble des informations que les vendeurs devront fournir dépendra du type de produit.
+
+Afin de les aider dans cette tâche *Piamashop* s'engage à leur fournir une interface à partir de laquelle ils pourront entrer toutes les informations nécessaires à l'enregistrement de leur produit.
+
+ Par exemple, pour un livre, le vendeur devra fournir l'ISBN, le nombre de pages, le ou les auteurs, l'éditeur, etc.
+
+Afin de rester compétitive la plateforme *Piamashop* devra permettre aux vendeurs de proposer de nouveaux types de produits. 
+
+L'ensemble des caractéristiques pour chaque nouveau type de produit sera à définir par les vendeurs sous la forme d'un document qui une fois réalisé devra être transmis à nos équipes afin qu'elles le valident et l'ajoutent au catalogue des types de marchandises vendable sur la plateforme.
 
 ## Brouillon : Autres formulations
 
-*Piamashop* a pour ambition de permettre aux vendeurs de proposer à la vente toutes sortes de marchandses.
+*Piamashop* a pour objectif de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises.
+
+*Piamashop* a pour ambition de permettre aux vendeurs de proposer à la vente toutes sortes de marchandises.
+
+À chaque type de marchandise correspondra un ensemble de caractéristiques que le vendeur devra fournir afin d'aider le client a faire son choix entre plusieurs marchandises du même type.
+
+L'un des objectifs de *Piamashop* est d'offrir aux vendeurs une suite d'interfaces qui leur permettent de décrire au mieux les produits qu'ils souhaitent vendre.
 
 Pour faciliter la recherche des clients chaque marchandise devra être classée par type.
 
 Les vendeurs pourront proposer toute sorte de marchandise à condition que celle-ci fasse partie d'une classe de produits déjà enregistrée.
 
 *Piamashop* accepte tout types de marchandise tant que celle-ci fait partie d'une [classe de produits](https://fr.wikipedia.org/wiki/Produit_(%C3%A9conomie)#Appartenance_%C3%A0_une_classe_de_produits) déjà enregistrée. Les vendeurs pourront faire une demande à *Piamashop* si il souhaite voir ajouter une nouvelle classe de produit au catalogue de *Piamashop*.
+
+## FAQ
+
+### Qui gère les stocks ?
+
+Les vendeurs ? Dans ce cas, le vendeur devra mettre à jour l'état de son stock sur la plateforme. Piamashop recherche avant tout la satisfaction des clients or si l'on laisse au vendeur le soin de gérer son stock on est pas à l'abri d'une rupture de stock dû a une erreur de la part du vendeur !
 
 # Les acteurs
 
@@ -113,6 +133,10 @@ Devenir vendeur sur la plateforme nécessite l'ouverture d'un *compte vendeur*.
 *Piamashop* propose deux types de compte vendeur : 
 - un compte vendeur professionnel ;
 - un compte vendeur basique.
+
+MAJ : 05 mars 2025
+
+Est-il bien utile pour l'exercice de s'embarasser avec deux types de compte vendeur ?
 
 ## Compte vendeur basique
 

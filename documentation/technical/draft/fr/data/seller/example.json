@@ -1,0 +1,12 @@
+[
+    {
+        "gtin": "8024884147615",
+        "price": {
+            "value": 24.99,
+            "currency_symbol": "€"
+        },
+        "supply": {
+            "amount": 135
+        }
+    }
+]
